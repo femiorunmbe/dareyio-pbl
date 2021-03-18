@@ -45,7 +45,8 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 ![image](https://user-images.githubusercontent.com/53876750/111560814-a26e1e00-8793-11eb-99ec-6987ebb6b1be.png)
 
-![image](https://user-images.githubusercontent.com/53876750/111560914-d21d2600-8793-11eb-8774-3aebf70eabfe.png)
+![image](https://user-images.githubusercontent.com/53876750/111562049-c894bd80-8795-11eb-9a6f-bcd54e0f7d34.png)
+
 
 8. Then you will be asked which plugings to install - choose suggested plugins.
 
@@ -54,7 +55,8 @@ Once plugins installation is done - create an admin user and you will get your J
 
 **Step 2 - Configure Jenkins to retrieve source codes from GitHub using Webhooks**
 1. Enable webhooks in your GitHub repository settings
-![image](https://user-images.githubusercontent.com/53876750/111560939-e4975f80-8793-11eb-808c-fc653ef1b553.png)
+![image](https://user-images.githubusercontent.com/53876750/111562097-e06c4180-8795-11eb-9b76-48e56ebc2c63.png)
+
 
 2. Go to Jenkins web console, click “New Item” and create a “Freestyle project”
 
