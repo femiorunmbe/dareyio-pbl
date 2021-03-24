@@ -62,10 +62,9 @@
     ![image](https://user-images.githubusercontent.com/53876750/112306693-5d208380-8ca0-11eb-9b81-72f380b5ff9a.png)
     
     * Checking Web Servers 1 and 2 individually (using the Public IP Address):
-    ![image](https://user-images.githubusercontent.com/53876750/112307257-04051f80-8ca1-11eb-81fe-39fc1c8b9bc3.png)
-    <br>
+    ![image](https://user-images.githubusercontent.com/53876750/112307257-04051f80-8ca1-11eb-81fe-39fc1c8b9bc3.png) <br>
     ![image](https://user-images.githubusercontent.com/53876750/112307289-0ff0e180-8ca1-11eb-9ed6-f456e8395d33.png)
-
+    
     * Checking Web Servers 1 and 2 through the NGINX Load Balancer (using the Public IP Address):
     ![image](https://user-images.githubusercontent.com/53876750/112307514-55adaa00-8ca1-11eb-961d-79dddb0cba9e.png) <br>
     ![image](https://user-images.githubusercontent.com/53876750/112307545-5fcfa880-8ca1-11eb-87fa-caf9d548de64.png)
@@ -101,7 +100,6 @@ sudo vi /etc/nginx/nginx.conf
 
 server_name www.lbproject.tk
 ```
-<br>
 ![image](https://user-images.githubusercontent.com/53876750/112308636-a4a80f00-8ca2-11eb-8191-effc44f1613e.png)
 
 6. Install certbot and request for an SSL/TLS certificate
